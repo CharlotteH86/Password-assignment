@@ -9,7 +9,7 @@ public class password {
 
 		String rightPassword = "miyagi123";
 
-		System.out.println("Greeting! Write the right password below to log in: ");
+		System.out.println("Greetings! Write the right password below to log in: ");
 
 		String passwordInput;
 
