@@ -13,20 +13,18 @@ public class password {
 
 		String passwordInput;
 
-		while(true) {
-			passwordInput=reader.nextLine();
-		if (passwordInput.equals(rightPassword)) {
-			System.out.println("Right Password!");
-			break;
-			
-		} else if(rightPassword != passwordInput){
-			System.out.println("Wrong password, try again: ");
+		while (true) {
+			passwordInput = reader.nextLine();
+			if (passwordInput.equals(rightPassword)) {
+				System.out.println("Right Password!");
+				break;
+
+			} else if (rightPassword != passwordInput) {
+				System.out.println("Wrong password, try again: ");
+			}
+
 		}
-	
-		}
-		
-		
-		
+
 	}
 
 }
